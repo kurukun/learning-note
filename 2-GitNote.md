@@ -5,6 +5,10 @@
 > 3. 提交本地库
 > 4. 推送远程库
 
+# 初次使用设置
+> 1. git config --global user.name —— 设置用户名
+> 2. git config --global user.email —— 设置用户邮箱
+
 # git常用命令
 
 > - git init —— 初始化本地库
