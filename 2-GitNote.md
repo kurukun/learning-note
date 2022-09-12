@@ -37,6 +37,7 @@
 > - git remote -v —— 查看当前所有远程地址别名
 > - git remote add 别名 远程地址 —— 命名远程地址
 > - git push 别名 分支名 —— 将代码推送到远程库
+> - git push -u 别名 分支名 —— 第一次推送的时候带-u，以后就直接git push就可以了
 
 拉取到本地库
 > - git pull 别名 分支名 —— 拉取到本地库
