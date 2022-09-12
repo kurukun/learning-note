@@ -25,6 +25,7 @@
 在需要**并行**完成多个功能开发时使用
 > - git branch -v —— 查看已有分支
 > - git branch 分支名 —— 创建分支
+> - git branch -d 分支名 —— 删除该分支
 > - git checkout 分支名 —— 切换分支
 > - git checkout -b 分支名 —— 在当前分支的基础上创建新的分支，并切换到这条新分支上
 > - git merge 分支名 —— 合并分支到当前分支上（正常合并）
