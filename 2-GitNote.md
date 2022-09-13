@@ -14,8 +14,10 @@
 > - git init —— 初始化本地库
 > - git status —— 查看本地库状态
 > - git add 文件全名 —— 添加暂存区
+> - git add . —— 将该目录下的所有文件添加暂存区
 > - git rm --cached 文件全名 —— 从暂存区删除
 > - git commit -m "日志信息" 文件全名 —— 提交本地库
+> - git commit -m "日志信息" —— 将该目录下所有文件提交本地库
 > - git reflog —— 查看版本信息（简化版）
 > - git log —— 查看版本信息（详细版）
 > - git reset --hard 版本号 —— 版本穿梭
