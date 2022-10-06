@@ -1,0 +1,14 @@
+# DDL操作
+## DDL数据库操作
+1. show databases —— 展示已有的数据库
+2. create database 数据库名 —— 创建新数据库
+3. select database() —— 查看当前所在数据库
+4. use 数据库名 —— 切换到某一数据库
+5. drop 数据库名 —— 删除某一数据库
+## DDL表操作
+- show tables —— 查看当前数据库已有的表
+- create table 表名 (字段 字段类型, 字段 字段类型) —— 创建一个表
+- desc 表名 —— 查看该表的详细
+- show create table 表名 —— 查看创建该表时的明细
+- alter table 表名 add/modify/change/drop/rename to... —— 分别为增、改字段类型、改字段名和类型、删除某字段、修改表名
+- drop table 表名 —— 删除该表
