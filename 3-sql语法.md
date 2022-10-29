@@ -21,3 +21,6 @@
 5. update 表名 set 列名 = xx where 条件 —— 更新数据
 # DQL操作
 select 列名 from 表名 —— 展示选中的数据
+使用 order by 可以对查询的结果进行排序，如：
+> select * from user order by id asc —— 升序，asc或desc不写时默认为asc
+> select * from user order by id desc —— 降序
