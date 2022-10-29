@@ -23,4 +23,6 @@
 select 列名 from 表名 —— 展示选中的数据
 使用 order by 可以对查询的结果进行排序，如：
 > select * from user order by id asc —— 升序，asc或desc不写时默认为asc  
-> select * from user order by id desc —— 降序
+> select * from user order by id desc —— 降序  
+count(*)函数 —— 用于返回查询结果的总数据条数，如  
+> select count(*) from user where status=0
